@@ -1,91 +1,33 @@
-# &lt;less-interop&gt;
+# [Polymer](http://www.polymer-project.org/) + [Less](http://lesscss.org/)
 
-> My awesome Custom Element
+> A demo of interoperability between [Polymer](http://www.polymer-project.org/) and [Less](http://lesscss.org/).
 
-## Demo
+## Getting started
 
-[Check it live!](http://webcomponents.github.io/less-interop)
+In order to run it locally you'll need to fetch some dependencies using [npm](https://www.npmjs.org/).
 
-## Install
-
-Install the component using [Bower](http://bower.io/):
-
-```sh
-$ bower install less-interop --save
-```
-
-Or [download as ZIP](https://github.com/webcomponents/less-interop/archive/master.zip).
-
-## Usage
-
-1. Import Web Components' polyfill:
-
-    ```html
-    <script src="bower_components/platform/platform.js"></script>
-    ```
-
-2. Import Custom Element:
-
-    ```html
-    <link rel="import" href="bower_components/less-interop/dist/my-element.html">
-    ```
-
-3. Start using it!
-
-    ```html
-    <my-element></my-element>
-    ```
-
-## Options
-
-Attribute     | Options     | Default      | Description
----           | ---         | ---          | ---
-`foo`         | *string*    | `bar`        | Lorem ipsum dolor.
-
-## Methods
-
-Method        | Parameters   | Returns     | Description
----           | ---          | ---         | ---
-`unicorn()`   | None.        | Nothing.    | Magic stuff appears.
-
-## Events
-
-Event         | Description
----           | ---
-`onsomething` | Triggers when something happens.
-
-## Development
-
-In order to run it locally you'll need to fetch some dependencies and a basic server setup.
-
-* Install [Bower](http://bower.io/) & [Grunt](http://gruntjs.com/):
+* Install [Bower](http://bower.io/):
 
     ```sh
-    $ [sudo] npm install -g bower grunt-cli
+    $ [sudo] npm install -g bower
+    ```
+
+* Install [Less](http://lesscss.org//):
+
+    ```sh
+    $ [sudo] npm install -g less
     ```
 
 * Install local dependencies:
 
     ```sh
-    $ bower install && npm install
+    $ bower install
     ```
 
-* To test your project, start the development server and open `http://localhost:8000`.
+* Invoke the compiler to output the CSS file:
 
     ```sh
-    $ grunt server
-    ```
-
-* To build the distribution files before releasing a new version.
-
-    ```sh
-    $ grunt build
-    ```
-
-* To provide a live demo, send everything to `gh-pages` branch.
-
-    ```sh
-    $ grunt deploy
+    $ lessc src/my-element.less > src/my-element.css
     ```
 
 ## Contributing
@@ -102,4 +44,4 @@ For detailed changelog, check [Releases](https://github.com/webcomponents/less-i
 
 ## License
 
-[MIT License](http://opensource.org/licenses/MIT)
+[MIT License](http://webcomponentsorg.mit-license.org/) © WebComponents.org
