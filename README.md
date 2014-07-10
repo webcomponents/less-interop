@@ -1,8 +1,8 @@
-# [Polymer](http://www.polymer-project.org/) + [Less](http://lesscss.org/)
+# [Less](http://lesscss.org/) + [Polymer](http://www.polymer-project.org/)
 
-![Polymer + Less](https://cloud.githubusercontent.com/assets/398893/3517008/603b141c-06e8-11e4-9467-f7511b6b0e58.jpg)
+![Less + Polymer](https://cloud.githubusercontent.com/assets/398893/3542417/b6c0e0ae-0856-11e4-97e4-eca788ad9729.jpg)
 
-> A demo of interoperability between [Polymer](http://www.polymer-project.org/) and [Less](http://lesscss.org/).
+> A demo of interoperability between [Less](http://lesscss.org/) and [Polymer](http://www.polymer-project.org/).
 
 ## Getting started
 
