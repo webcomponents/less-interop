@@ -1,10 +1,7 @@
 {
-    "private": true,
-    "name": "less-interop",
-    "dependencies": {
-        "polymer": "Polymer/polymer#~0.3.3"
-    },
-    "resolutions": {
-        "polymer": ">=0.3.0 <1.0.0"
-    }
+  "private": true,
+  "name": "less-interop",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.4.1"
+  }
 }
