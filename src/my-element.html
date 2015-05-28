@@ -1,13 +1,16 @@
 <!-- Import Polymer -->
 <link rel="import" href="../components/polymer/polymer.html">
 
-<!-- Define your custom element -->
-<polymer-element name="my-element">
-
+<!-- Defines element markup -->
+<dom-module id="my-element">
     <template>♥
         <link rel="stylesheet" href="my-element.css">
     </template>
+</dom-module>
 
-    <script>Polymer('my-element', {});</script>
-
-</polymer-element>
+<!-- Registers custom element -->
+<script>
+    Polymer({
+        is: 'my-element'
+    });
+</script>
